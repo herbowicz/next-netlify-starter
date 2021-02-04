@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -11,10 +12,16 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my test app!" />
+        <Header title="Welcome to my app!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          While you are here, enjoy:
         </p>
+          <h3>
+          See{' '}
+          <Link href="/demo">
+            <a>demo!</a>
+          </Link>
+        </h3>
       </main>
 
       <Footer />
