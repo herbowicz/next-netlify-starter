@@ -1,0 +1,15 @@
+.demo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.el {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
